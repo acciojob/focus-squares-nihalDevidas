@@ -16,14 +16,14 @@ function setChanges(e){
 	
 	arr.forEach((box)=>{
 		if(box.id === id){
-			box.style.backgroundColor = "#E6E6FA" ;
+			box.style.backgroundColor = "rgb(230,230,250)" ;
 		}
 		else{
-			box.style.backgroundColor = "#6F4E37";
+			box.style.backgroundColor = "rgb(111,78,55)";
 		}
 	});
 }
 
 function restoreChanges(){
-	arr.forEach((box)=> box.style.backgroundColor = "#E6E6FA")
+	arr.forEach((box)=> box.style.backgroundColor = "rgb(230,230,250)")
 }
